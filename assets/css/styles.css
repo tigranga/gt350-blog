@@ -1,0 +1,35 @@
+#main{
+    background-image: url("../image/car.jpg");
+    background-size: 81%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: darkgrey;
+ }
+
+ .container{
+     width: 100%;
+ }
+ 
+.jumbotron{
+    background: none;
+    color: white;
+}
+
+.jumbotron h1{
+    margin-left: 150px;
+}
+
+.jumbotron p{
+    margin-left: 150px;
+}
+
+#sections{
+    margin-top: 33%;
+}
+
+section{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 5px;
+}
