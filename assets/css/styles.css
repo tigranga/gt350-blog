@@ -5,15 +5,14 @@
     background-position: top;
     background-color: darkgrey;
     color: white;
+    height: 50vw;
  }
 
  .container{
      width: 100%;
  }
 
-#sections{
-    margin-top: 42vw;
-}
+
 
 section{
     background-color: white;
