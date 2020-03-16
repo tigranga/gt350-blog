@@ -10,27 +10,14 @@
 
  .container{
      width: 100%;
+     background-color: darkgrey;
  }
-
-
 
 section{
     background-color: white;
     color: black;
     padding: 20px;
     margin-top: 5px;
-}
-
-h1{
-    font-size:8vw;
-}
-
-h2{
-    font-size:3vw;
-}
-
-p{
-    font-size:1vw;
 }
 
 .header h2{
