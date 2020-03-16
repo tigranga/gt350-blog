@@ -34,6 +34,12 @@ p{
     font-size:1vw;
 }
 
-.header{
+.header h2{
     margin-left: 15%;
+    color: white;
+}
+
+.header p{
+    margin-left: 15%;
+    color: white;
 }
