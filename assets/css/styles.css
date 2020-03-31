@@ -45,3 +45,7 @@ section{
   .rightside{
       float: right;
   }
+
+  .inner_h2{
+      color: #9B111E;
+  }
