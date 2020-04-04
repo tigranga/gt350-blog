@@ -49,3 +49,11 @@ section{
   .inner_h2{
       color: #9B111E;
   }
+
+  .sideimg{
+      width: 100%;
+  }
+
+  p{
+      font-size: large;
+  }
