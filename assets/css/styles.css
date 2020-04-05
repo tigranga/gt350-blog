@@ -21,13 +21,16 @@ section{
 }
 
 .header h2{
-    margin-left: 15%;
     color: white;
 }
 
 .header p{
-    margin-left: 15%;
     color: white;
+}
+
+#headerdiv{
+    width: 500px;
+    margin-left: 10%;
 }
 
 .rotateimg180 {
@@ -38,10 +41,21 @@ section{
     transform: rotate(180deg);
   }
 
+  .rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
   .halfsize{
       width: 49%;
   }
 
+  .fullsize{
+    width: 98%;
+}
   .rightside{
       float: right;
   }
@@ -52,8 +66,22 @@ section{
 
   .sideimg{
       width: 100%;
+      height: 100%;
   }
 
   p{
       font-size: large;
+  }
+
+  .img {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+  }
+
+  #profilediv{
+      width: 150px;
+      position: absolute;
+      top: 25px;
+      margin-left: 78%;
   }
