@@ -1,23 +1,26 @@
+body{
+    background-image: url("../image/snake_bg5.png");
+}
+
 #main{
     background-image: url("../image/car.jpg");
     background-size: 81%;
     background-repeat: no-repeat;
     background-position: top;
-    background-color: darkgrey;
     color: white;
     height: 50vw;
  }
 
  .container{
      width: 100%;
-     background-color: darkgrey;
  }
 
 section{
     background-color: white;
     color: black;
     padding: 20px;
-    margin-top: 5px;
+    margin-top: 25px;
+    box-shadow: 10px 10px gray;
 }
 
 .header h2{
@@ -33,55 +36,68 @@ section{
     margin-left: 10%;
 }
 
-.rotateimg180 {
+.rotateimg180{
     -webkit-transform:rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-  }
+}
 
-  .rotateimg90 {
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
+.rotateimg90{
+-webkit-transform:rotate(90deg);
+-moz-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+transform: rotate(90deg);
+}
 
-  .halfsize{
-      width: 49%;
-  }
+.halfsize{
+    width: 49%;
+}
 
-  .fullsize{
+.fullsize{
     width: 98%;
 }
-  .rightside{
-      float: right;
-  }
 
-  .inner_h2{
-      color: #9B111E;
-  }
+.quartersize{
+    width: 24%;
+}
 
-  .sideimg{
-      width: 100%;
-      height: 100%;
-  }
+.rightside{
+    float: right;
+}
 
-  p{
-      font-size: large;
-  }
+.inner_h2{
+    color: #9B111E;
+}
 
-  .img {
+.sideimg{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-size: large;
+}
+
+.img {
     border-radius: 100%;
     height: 150px;
     width: 150px;
-  }
+}
 
-  #profilediv{
-      width: 150px;
-      position: absolute;
-      top: 25px;
-      margin-left: 78%;
+#profilediv{
+    width: 150px;
+    position: absolute;
+    top: 25px;
+    margin-left: 78%;
+}
+
+.upgrade li{
+    text-shadow: 2px 2px 8px #9B111E;
+}
+
+img:hover {
+    opacity: 0.7;
   }
