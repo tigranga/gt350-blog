@@ -36,6 +36,10 @@ section{
     margin-left: 10%;
 }
 
+.halfwidthvw{
+    width: 38vw;
+}
+
 .halfwidth{
     width: 49%;
 }
