@@ -36,12 +36,21 @@ section{
     margin-left: 10%;
 }
 
-.halfsize{
+.halfwidth{
     width: 49%;
+}
+
+.halfheight{
+    height: 60vh;
 }
 
 .fullsize{
     width: 98%;
+    height: 100vh;
+}
+
+.height70{
+    height: 70vh;
 }
 
 .quartersize{
